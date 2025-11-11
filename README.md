@@ -1,5 +1,5 @@
 EdgeProfileManager is a manager that reliably saves and restores your Microsoft Edge Browser profiles. 
-Fully written in Powershell 5.1
+>Fully written in Powershell 5.1
 
 Minimum requirements:
 ---------------------
