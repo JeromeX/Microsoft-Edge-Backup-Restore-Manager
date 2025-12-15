@@ -1,33 +1,33 @@
-# Edge Profil Manager (C# Edition)
+# Edge Profile Manager (C# Edition)
 
 > **No backup, no sympathy.**
 
-Ein leichtgewichtiges, portables Windows-Tool zur Verwaltung von Microsoft Edge Profilen. Ursprünglich als PowerShell-Skript entwickelt, wurde dieses Tool nun vollständig nach C# (Windows Forms) portiert, um als eigenständige `.exe` ohne Abhängigkeiten zu laufen.
+A lightweight, portable Windows tool for managing Microsoft Edge profiles. Originally developed as a PowerShell script, this tool has been fully ported to C# (Windows Forms) to run as a standalone `.exe` without any external dependencies.
 
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Platform](https://img.shields.io/badge/platform-Windows-blue)
 ![Language](https://img.shields.io/badge/language-C%23-purple)
 
-## 🚀 Funktionen
+## 🚀 Features
 
-* **Profil Erstellen:** Erstellt neue Edge-Profile basierend auf dem Standard-Profil ('Default').
-* **Backup:** Sichert komplette Profile inkl. JSON-Manifest in kompakte `.zip`-Dateien.
-* **Restore:** Stellt Profile aus Backups wieder her (mit automatischer Namenserkennung).
-* **Löschen:** Entfernt Profile sicher (Schutz für das 'Default'-Profil).
-* **Portable:** Läuft als einzelne `.exe`-Datei (Bilder und Icons sind integriert).
-* **Mehrsprachig:** Umschaltbar zwischen **Deutsch** 🇩🇪 und **Englisch** 🇬🇧.
-* **Sicherheit:** Erkennt laufende Edge-Prozesse und fordert zum Schließen auf, um Datenverlust zu vermeiden.
+* **Create Profile:** Creates new Edge profiles based on the standard ('Default') profile.
+* **Backup:** Backs up complete profiles, including a JSON manifest, into compact `.zip` files.
+* **Restore:** Restores profiles from backups (with automatic name detection).
+* **Delete:** Safely removes profiles (includes a safeguard for the 'Default' profile).
+* **Portable:** Runs as a single `.exe` file (images and icons are embedded).
+* **Multi-language:** Switchable between **German** 🇩🇪 and **English** 🇬🇧.
+* **Safety:** Detects running Edge processes and prompts you to close them to prevent data loss.
 
-## 🛠️ Voraussetzungen
+## 🛠️ Prerequisites
 
-* Windows Betriebssystem (Windows 10/11 empfohlen).
-* .NET Framework 4.5 oder höher (auf fast allen Windows-PCs vorinstalliert).
-* **Administrator-Rechte** (empfohlen, da Edge seine Daten in geschützten Systemverzeichnissen speichert).
+* Windows Operating System (Windows 10/11 recommended).
+* .NET Framework 4.5 or higher (pre-installed on almost all modern Windows PCs).
+* **Administrator privileges** (recommended, as Edge stores data in protected system directories).
 
-## 📥 Installation & Nutzung
+## 📥 Installation & Usage
 
-Da es sich um eine portable Anwendung handelt, ist keine Installation notwendig:
+Since this is a portable application, no installation is required:
 
-1.  Lade die `EdgeProfilManager.exe` herunter (siehe [Releases](#)).
-2.  Führe die Datei aus (Rechtsklick -> *Als Administrator ausführen* wird empfohlen).
-3.  Wähle deine Sprache oben rechts.
+1.  Download `EdgeProfilManager.exe` (see [Releases](#)).
+2.  Run the file (Right-click -> *Run as administrator* is recommended).
+3.  Select your language in the top right corner.
